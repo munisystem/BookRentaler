@@ -10,5 +10,5 @@ body {
 
 tr td:nth-of-type(1), tr th:nth-of-type(1) {
   text-align: center;
-  width: 4em;
+  width: 5em;
 }

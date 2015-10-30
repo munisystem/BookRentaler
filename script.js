@@ -7,11 +7,11 @@ $(function() {
         function(data) {
             for (var i = 0; i < data.length; i++) {
                 var can = data[i].user == NO_USER;
-                var can_text = 'x';
+                var can_text = '貸出中';
                 var can_class = '';
                 var user_name = data[i].user;
                 if (can) {
-                    can_text = 'o';
+                    can_text = '';
                     can_class = 'allow';
                     user_name = '-';
                 }
