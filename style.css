@@ -2,7 +2,27 @@
 
 header {
   background: green;
-  padding: 20px 20px 200px;
+  padding: 20px 20px 67px;
+  border-bottom: solid orange 2px;
+}
+
+.detail {
+  color: #BFBFBF;
+}
+
+.icon-wrap {
+  border-radius: 50%;
+  background: white;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 0.25em;
+  display: inline-block;
+}
+
+i {
+  margin-right: 5px;
+  color: #005204;
+  text-shadow: #FFA242;
 }
 
 h1 {
@@ -20,7 +40,7 @@ body {
 }
 
 .container {
-  margin-top: -100px;
+  margin-top: -67px;
   padding: 30px;
 }
 
@@ -28,12 +48,17 @@ table#books-table td {
   border-color: green;
 }
 
+table#books-table tr:nth-of-type(1) td {
+  border-top: none;
+}
+
 table#books-table th {
-  border-color: orange;
+  border: none;
   color: #83f084;
 }
 
 tr td:nth-of-type(1), tr th:nth-of-type(1) {
   text-align: center;
   width: 5em;
+  color: orange;
 }
