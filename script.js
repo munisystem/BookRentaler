@@ -1,16 +1,16 @@
 $(function() {
     var API_URL = 'http://api.munisystem.net:3000/books';
+    $tbody = $('#books-table tbody');
     $.get(API_URL,
         null,
         function(data) {
             for (var i = 0; i < data.length; i++) {
-                $div = $('<div/>').append(
-                        $('<span/>').text('id: ' + data[i].user)
+                $tr = $('<tr/>').append(
+                        $('<td/>').text(data[i].name)
                 ).append(
-                        $('<span/>').text('name: ' + data[i].name)
+                        $('<td/>').text(data[i].user)
                 );
-                $('#res').append($div);
-                console.log(data[i]);
+                $tbody.append($tr);
             }
         }
     )
