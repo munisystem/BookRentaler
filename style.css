@@ -1,5 +1,14 @@
 
 
+h1 {
+  margin-bottom: 10px;
+}
+
 body {
   padding: 30px;
+}
+
+tr td:nth-of-type(1), tr th:nth-of-type(1) {
+  text-align: center;
+  width: 4em;
 }
