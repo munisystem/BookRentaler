@@ -1,11 +1,36 @@
 
 
+header {
+  background: green;
+  padding: 20px 20px 200px;
+}
+
 h1 {
-  margin-bottom: 10px;
+//  background: green;
+  color: white;
+//  margin: 10px 50px 10px -1em;
+//  padding: 10px 10px 10px 1em;
+//  width: 50%
+    margin: 0;
 }
 
 body {
+  background: #F2FFF3;
+  color: #00C100;
+}
+
+.container {
+  margin-top: -100px;
   padding: 30px;
+}
+
+table#books-table td {
+  border-color: green;
+}
+
+table#books-table th {
+  border-color: orange;
+  color: #83f084;
 }
 
 tr td:nth-of-type(1), tr th:nth-of-type(1) {
